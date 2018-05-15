@@ -1,4 +1,4 @@
-# Sanic OpenAPI
+# (Fork) Sanic OpenAPI
 
 [![Build Status](https://travis-ci.org/matsurihime/fork-sanic-openapi.svg?branch=master)](https://travis-ci.org/matsurihime/fork-sanic-openapi)
 [![PyPI](https://img.shields.io/pypi/v/fork-sanic-openapi.svg)](https://pypi.python.org/pypi/fork-sanic-openapi/)
@@ -23,7 +23,7 @@ app.blueprint(openapi_blueprint)
 app.blueprint(swagger_blueprint)
 ```
 
-You'll now have a Swagger UI at the URL `/swagger`.  
+You'll now have a Swagger UI at the URL `/swagger/`.  
 Your routes will be automatically categorized by their blueprints.
 
 ## Example
@@ -96,3 +96,6 @@ app.config.API_TERMS_OF_SERVICE = 'Use with caution!'
 app.config.API_PRODUCES_CONTENT_TYPES = ['application/json']
 app.config.API_CONTACT_EMAIL = 'channelcat@gmail.com'
 ```
+
+### See more...
+[GitHub Wiki](https://github.com/matsurihime/fork-sanic-openapi/wiki)
